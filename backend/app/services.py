@@ -42,7 +42,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 print(f"Loaded API Key: {GOOGLE_API_KEY}")
 
 # Configure Gemini API
-genai.configure(api_key='AIzaSyC3B0Z0hg6cZ08Jh8WP4OgsJtdfk28INcw')
+genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define paths for prompt and content files
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
