@@ -9,4 +9,4 @@ model = genai.GenerativeModel('gemini-pro')
 prompt = f"tell a poem"
         
 response = model.generate_content(prompt) 
-print(response.text)
+print(response.text) 
