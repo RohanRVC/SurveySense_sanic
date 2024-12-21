@@ -1,10 +1,10 @@
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyC3B0Z0hg6cZ08Jh8WP4OgsJtdfk28INcw')
+genai.configure(api_key='AIzaSyC3B0Z0hg6cZ08Jh8WP4OgsJtdfNcw')
 
 
 
-
+ 
 model = genai.GenerativeModel('gemini-pro')
 prompt = f"tell a poem" 
         
