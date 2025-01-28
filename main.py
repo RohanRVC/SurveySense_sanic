@@ -1,6 +1,6 @@
 from sanic import Sanic
 from backend.app.routes import setup_routes
-from sanic import Sanic  
+from sanic import Sanic   
 from sanic_cors import CORS         
            
 app = Sanic("SurveyProcessor")   
