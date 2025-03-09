@@ -3,7 +3,7 @@ from backend.app.routes import setup_routes
 from sanic import Sanic   
 from sanic_cors import CORS           
            
-app = Sanic("SurveyProcessor")      
+app = Sanic("SurveyProcessor")       
 CORS(app)  # This will allow all cross-origin requests by default         
    
    
