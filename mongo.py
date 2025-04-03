@@ -4,7 +4,7 @@ client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client["test_database"]
  
 async def test_connection(): 
-    try:    
+    try:     
         await db.command("ping")  # Test the connection       
         print("MongoDB connection is successful!")     
     except Exception as e:    
