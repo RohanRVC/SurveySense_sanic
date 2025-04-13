@@ -7,7 +7,7 @@ async def test_connection():
     try:       
         await db.command("ping")  # Test the connection        
         print("MongoDB connection is successful!")     
-    except Exception as e:    
+    except Exception as e:     
         print(f"MongoDB connection failed: {e}")    
 
 import asyncio 
