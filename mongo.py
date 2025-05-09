@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 
 client = AsyncIOMotorClient("mongodb://localhost:27017") 
 db = client["test_database"]
-  
+   
 async def test_connection(): 
     try:           
         await db.command("ping")  # Test the connection        
